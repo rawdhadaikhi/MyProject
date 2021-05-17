@@ -1,0 +1,16 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd backEnd && npm run dev",
+    "start": "concurrently \"npm run server\" \"cd frontEnd && cd client && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.15.1",
+    "concurrently": "^6.0.0"
+  }
+}
